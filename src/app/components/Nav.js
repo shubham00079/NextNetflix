@@ -14,7 +14,7 @@ const Nav = () => {
                 <div className={openMenu ? `${styles.active}` : "" }>
                     <ul className={styles.navbarList}>
                         <li className={styles.navbarItem}>
-                            <Link className={styles.navbarLink} href="#"
+                            <Link className={styles.navbarLink} href="/"
                                   onClick={() => setOpenMenu(false)}
                             >Home</Link>
                         </li>
